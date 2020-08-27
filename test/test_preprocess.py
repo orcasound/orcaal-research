@@ -78,3 +78,7 @@ class TestPreprocess(unittest.TestCase):
         npt.assert_almost_equal(
                     wavelet_denoised_spec, wavelet_denoised_spec_test,
                     decimal=3)
+
+
+if __name__ == '__main__':
+    unittest.main()
