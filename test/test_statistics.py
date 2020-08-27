@@ -26,9 +26,12 @@ for j in range(201):
 model = tf.keras.models.load_model("preprocess_mag_scipy_Srkws.h5")
 predictions = model.predict_proba(test_data_generator)
 
-class TestPreprocess(unittest.TestCase):
+class TestROC(unittest.TestCase):
 
     def test_plot_roc_curve(self):
 
         lr_auc = statistics.plot_roc_curve("preprocess_mag_scipy_Srkws.h5", "test", predictions, true_classes, randomlist)
         self.assertEqual(lr_auc, 0.857029702970297)
+
+if __name__ == '__main__':
+    unittest.main()
