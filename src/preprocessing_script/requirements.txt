@@ -1,0 +1,10 @@
+librosa==0.6.3
+matplotlib==2.2.2
+pandas==1.1.0
+pydub==0.24.1
+pytest==6.0.1
+scipy==1.4.1
+soundfile==0.10.1
+numba==0.48
+scikit-learn==0.23.2 
+scikit-image==0.17.2 
