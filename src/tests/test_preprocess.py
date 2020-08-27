@@ -5,7 +5,7 @@ import pandas as pd
 import os
 import numpy.testing as npt
 
-call_annotations = pd.read_csv("test_extract_audio.tsv", sep="\t")
+call_annotations = pd.read_csv("test_dataset/test_extract_audio.tsv", sep="\t")
 call_annotations["end"] = call_annotations["start"] + call_annotations["duration_s"]
 
 
@@ -16,7 +16,7 @@ class TestPreprocess(unittest.TestCase):
 
         negative_tsv_generated = preprocess.generate_negative_tsv(
                              call_annotations, 3,
-                             "test_audio")
+                             "test_dataset")
 
         print(negative_tsv_generated)
 
@@ -42,7 +42,7 @@ class TestPreprocess(unittest.TestCase):
     def test_extract_audio(self):
         preprocess.extract_audio(
                    "positive_calls",
-                   "test_audio/", 3, call_annotations)
+                   "test_dataset/", 3, call_annotations)
         nb_extracted_audio_files = sum(len(files) for _, _, files in os.walk("positive_calls"))
 
         # Testing the number of samples generated are as expected
