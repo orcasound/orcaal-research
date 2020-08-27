@@ -7,7 +7,7 @@ from sklearn.metrics import confusion_matrix
 import os
 
 
-class TestPreprocess(unittest.TestCase):
+class TestReport(unittest.TestCase):
 
     def test_classification_report_sklearn(self):
 
@@ -24,3 +24,7 @@ class TestPreprocess(unittest.TestCase):
 
         self.assertEqual(class_labels[0], "calls")
         self.assertEqual(class_labels[1], "nocalls")
+
+
+if __name__ == '__main__':
+    unittest.main()
