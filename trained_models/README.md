@@ -1,11 +1,11 @@
 This directory consists of different trained models along with their respective spectrograms. Please use the same model of which you are going to plot the spectrogram.
- - [Trained CNN model of Power_Spectral_Density_Spectrogram](https://drive.google.com/file/d/1QZxiXt04PdNgEK3XYSs8TqLH0ICcw_P4/view?usp=sharing)
+ - [Trained CNN model of Power_Spectral_Density_Spectrogram](https://drive.google.com/file/d/1ZTB6xG12cW-zT4A_q3aeysefK2AEbHB0/view?usp=sharing)
 
- - [Trained CNN model of Grayscale Power_Spectral_Density_Spectrogram](https://drive.google.com/file/d/1YCfQBGpP-XpZd204BpqDFhjz2HFX2ZDJ/view?usp=sharing)
+ - [Trained CNN model of Grayscale Power_Spectral_Density_Spectrogram](https://drive.google.com/file/d/1ehUBc0a-BYT2CFGxjfiOE6bm0LEjHujg/view?usp=sharing)
 
 The image width and image height for Power_Spectral_Density_Spectrogram is 288, 432
 
- - [Trained CNN model of Melspectrograms generated after applying PCEN and Wavelet Denoising](https://drive.google.com/file/d/1jJ-E4M1Hwn7CQnZxxWlp-ejPGmdRlvPu/view?usp=sharing)
+ - [Trained CNN model of Melspectrograms generated after applying PCEN and Wavelet Denoising](https://drive.google.com/file/d/12RqcF-fzPrqRMh-9s4GFLk2TyHHZMgpc/view?usp=sharing)
 
 The image width and height for Melspectrograms is 607, 617.
 ## Here are the different trained models on different spectrograms whose example has been provided
