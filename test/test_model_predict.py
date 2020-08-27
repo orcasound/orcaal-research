@@ -9,5 +9,5 @@ class Testpredict(unittest.TestCase):
         self.assertEqual(shape, (44, 1))
 
 
-if __name__ == '__main__'
+if __name__ == '__main__':
     unittest.main()
