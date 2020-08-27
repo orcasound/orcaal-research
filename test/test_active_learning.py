@@ -11,5 +11,5 @@ class TestAL(unittest.TestCase):
         self.assertEqual(class_ten, 0)
         npt.assert_almost_equal(probability_last, 0.5279, decimal=3)
 
-if __name__ == '__main__'
+if __name__ == '__main__':
     unittest.main()
