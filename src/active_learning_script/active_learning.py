@@ -54,7 +54,10 @@ def predict(model_path, test_path):
             shutil.copy(f_n, 'uncertain_calls')
     logger.info(
         f"There are  {sum(len(files) for _, _, files in os.walk('uncertain_calls'))} uncertain srkw calls")
-    return one_dim_predict[i][0], classes[10][0]
+    print(one_dim_predict[1])
+    print(classes[1])
+    return one_dim_predict[1],classes[1]
+
 
 
 def main(args):
@@ -75,9 +78,9 @@ if __name__ == '__main__':
         required=True)
     parser.add_argument(
         '-c',
-        "--datapath",
+        "--testpath",
         type=str,
-        help='directory with Preprocessed images',
+        help='directory with PreProcessed images',
         required=True)
 
     args = parser.parse_args()
