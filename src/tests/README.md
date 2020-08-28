@@ -1,7 +1,7 @@
-### Tests
+# Tests
 
 This directory contains the tests that user could perform
-
+Please install the requirements file before running the test cases
 Inorder to run these tests please make sure you follow a similar order, so that the model is created and you could use that model for prediction and detection of 
 uncertain samples. Morever, you can also follow different order once you create the model. But make sure that you create the model first before using it!
 
