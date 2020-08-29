@@ -119,7 +119,7 @@ Thanks to [OrcaCNN](https://github.com/axiom-data-science/OrcaCNN) and [Ketos](h
 Here are the links to the three blog-posts that I wrote during gsoc period.
  1. [Detection of Orca calls using Active Learning: GSoC progress report #1](http://www.orcasound.net/2020/07/03/detection-of-orca-calls-using-active-learning/)
  2. [Detection of Orca calls using Active Learning: GSoC progress report #2](http://www.orcasound.net/2020/08/02/detection-of-orca-calls-using-active-learning-gsoc-progress-report-2/)
- 3.[Detection of Orca calls using Active Learning: GSoC progress report #3](http://www.orcasound.net/2020/08/26/detection-of-orca-calls-using-active-learning-gsoc-progress-report-3/)
+ 3. [Detection of Orca calls using Active Learning: GSoC progress report #3](http://www.orcasound.net/2020/08/26/detection-of-orca-calls-using-active-learning-gsoc-progress-report-3/)
  
 ## License
 <!--- If you're not sure which open license to use see https://choosealicense.com/--->
