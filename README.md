@@ -2,7 +2,7 @@
 These Repository contains the necessary code, research work and steps for preprocessing and developing Orcacall detection model with some research focused on Active Learning. The part two of this repo which contains the Active learning tool and its deployment is located in [this repo](https://github.com/orcasound/orcaAL).
 Most of the data present in the world are unlabeled. Even though labeling data is an expensive, difficult, and slow process, it is an essential part of the Machine  Learning system. But what if a model could achieve a similar accuracy just by annotating a small amount of dataset. With the help of Active Learning, you can spend 10-20% of the time annotating data and still get the same performance.
 Therefore, we going to build an active learning tool that would label the vast amounts of unlabeled data coming in real-time streams from ocean observing systems.
-
+For more extensive research jump to the [notebooks directory](https://github.com/orcasound/orcaal-research/tree/master/notebooks)
 ## Dataset 
 
 This github repository consists of the necessary steps taken for the backend i.e. preprocessing, building CNN models, and active learning. Along with this, this repository also contains different accuracy achieved by different models with the steps necessary steps taken to achieve that accuracy.
