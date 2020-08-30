@@ -1,10 +1,11 @@
 import unittest
-sys.path.append(os.path.abspath(os.path.join('..', 'preprocessing_script')))
-from preprocessing_script import preprocess
 import librosa
 import pandas as pd
 import os
+import sys
 import numpy.testing as npt
+sys.path.append(os.path.abspath(os.path.join('..', 'preprocessing_script')))
+from preprocessing_script import preprocess
 
 
 call_annotations = pd.read_csv("datasets/test_extract_audio.tsv", sep="\t")
