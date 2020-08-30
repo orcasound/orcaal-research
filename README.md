@@ -69,21 +69,47 @@ The directory structure of our project looks like this:
 │   └── notebooks/README.md
 ├── requirements.txt
 ├── src
+    ├── active_learning_script
+│   │   ├── active_learning.py
+│   │   └── README.md
+│   ├── datasets
+│   │   ├── 1562337136_0004.wav
+│   │   ├── extracted_calls1.wav
+│   │   ├── test_extract_audio.tsv
+│   │   ├── test_srkw
+│   │   │   ├── calls
+│   │   │   │   ├── extracted_calls4.png
+│   │   │   │   ├── extracted_calls5.png
+│   │   │   │   └── extracted_calls6.png
+│   │   │   └── no_calls
+│   │   │       ├── extracted_calls1.png
+│   │   │       ├── extracted_calls2.png
+│   │   │       ├── extracted_calls3.png
+│   │   │       ├── extracted_calls4.png
+│   │   │       ├── extracted_calls5.png
+│   │   │       └── extracted_calls6.png
+│   │   ├── test_wav.wav
 │   ├── src/preprocessing_script
 │   │   ├── src/preprocessing_script/Dockerfile   <- The Dockerfile of the preprocessing script. 
 │   │   ├── src/preprocessing_script/preprocess.py <- The preprocessing script. 
 │   │   ├── src/preprocessing_script/README.md  
 │   │   ├── src/preprocessing_script/requirements.txt <- Requirement file
-│   │   └── src/preprocessing_script/selection_table.py <- Selection table for generating background noises
-│   ├── src/training_script
-│   │    ├── src/training_script/Dockerfile <- The Dockerfile of the training script. 
-│   │    ├── src/training_script/model_build_and_training.py <- The model building and training script.
-│   │    ├── src/training_script/README.md
-│   │    └── src/training_script/requirements.txt <- Requirement file
-│   │
-│   ├── src/active_learning_script
-|   │        ├──active_learning
-│   │
+│   │   └── src/preprocessing_script/selection_table.py <- Selection table for generating background noise
+|   ├── tests
+│   │   ├── README.md
+│   │   ├── test_active_learning.py
+│   │   ├── test_model_build_and_training.py
+│   │   ├── test_model_predict.py
+│   │   ├── test_preprocess.py
+│   |   └── test_report.py
+|   └── src/training_script
+│       ├── src/training_script/Dockerfile <- The Dockerfile of the training script. 
+│       ├── src/training_script/model_build_and_training.py <- The model building and training script.
+│       ├── src/training_script/README.md
+│       └── src/training_script/requirements.txt <- Requirement file
+│   
+│   
+|
 │
 │   
 │
