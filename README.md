@@ -75,11 +75,18 @@ The directory structure of our project looks like this:
 │   │   ├── src/preprocessing_script/README.md  
 │   │   ├── src/preprocessing_script/requirements.txt <- Requirement file
 │   │   └── src/preprocessing_script/selection_table.py <- Selection table for generating background noises
-│   └── src/training_script
-│       ├── src/training_script/Dockerfile <- The Dockerfile of the training script. 
-│       ├── src/training_script/model_build_and_training.py <- The model building and training script.
-│       ├── src/training_script/README.md
-│       └── src/training_script/requirements.txt <- Requirement file
+│   ├── src/training_script
+│   │    ├── src/training_script/Dockerfile <- The Dockerfile of the training script. 
+│   │    ├── src/training_script/model_build_and_training.py <- The model building and training script.
+│   │    ├── src/training_script/README.md
+│   │    └── src/training_script/requirements.txt <- Requirement file
+│   │
+│   ├── src/active_learning_script
+|   │        ├──active_learning
+│   │
+│
+│   
+│
 └── trained_models
    └── trained_models/README.md <- Links to the different models that could be used
 
