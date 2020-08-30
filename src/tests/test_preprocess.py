@@ -1,4 +1,5 @@
 import unittest
+sys.path.append(os.path.abspath(os.path.join('..', 'preprocessing_script')))
 from preprocessing_script import preprocess
 import librosa
 import pandas as pd
