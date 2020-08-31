@@ -1,6 +1,6 @@
 # Tests
 
-This directory contains the tests that user could perform
+This directory contains the tests that user could perform.
 Please install the requirements file before running the test cases.
 
 Inorder to run these tests please make sure you follow a similar order, so that the model is created and you could use that model for prediction and detection of 
