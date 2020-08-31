@@ -13,7 +13,7 @@ class TestReport(unittest.TestCase):
 
     def test_classification_report_sklearn(self):
 
-        cm, true_classes, specificity, sensitivity, class_labels, acc = classification_report_sklearn("srkw_cnn.h5", "../datasets/test_srkw/")
+        cm, true_classes, specificity, sensitivity, class_labels, acc = classification_report_sklearn('srkw_cnn.h5', '../datasets/test_srkw/')
         self.assertEqual(cm[0, 0], 3)
         self.assertEqual(cm[1, 1], 0)
 
@@ -23,8 +23,8 @@ class TestReport(unittest.TestCase):
         self.assertEqual(specificity, 0.0000)
 
 
-        self.assertEqual(class_labels[0], "calls")
-        self.assertEqual(class_labels[1], "no_calls")
+        self.assertEqual(class_labels[0], 'calls')
+        self.assertEqual(class_labels[1], 'no_calls')
 
 
 if __name__ == '__main__':
