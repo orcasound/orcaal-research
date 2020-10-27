@@ -1,12 +1,16 @@
 # AL-MLresearch
-These Repository contains the necessary code, research work and steps for preprocessing and developing Orcacall detection model with some research focused on Active Learning. The part two of this repo which contains the Active learning tool and its deployment is located in [this repo](https://github.com/orcasound/orcaAL).
-Most of the data present in the world are unlabeled. Even though labeling data is an expensive, difficult, and slow process, it is an essential part of the Machine  Learning system. But what if a model could achieve a similar accuracy just by annotating a small amount of dataset. With the help of Active Learning, you can spend 10-20% of the time annotating data and still get the same performance.
+This repository contains code, research work, and pre-processing steps involved in developing the Orcacall detection model for the "OrcaAL" Active learning tool during the 2020 Google Summer of Code. The deployment of the model within the tool is described in [the OrcaAL repo](https://orcasound.github.io/orcaal/).
+
+Most of the orca audio data present in the world are unlabeled. Even though labeling data is an expensive, difficult, and slow process, it is an essential part of the advancing machine learning (ML) systems. What if a model could achieve accuracy by annotating a small portion of a large dataset? One way of doing this is [Active Learning](https://en.wikipedia.org/wiki/Active_learning_(machine_learning)) which can allow a human to spend 10-20% of the time annotating data and still get the good model performance.
+
 Therefore, we going to build an active learning tool that would label the vast amounts of unlabeled data coming in real-time streams from ocean observing systems.
-For more extensive research jump to the [notebooks directory](https://github.com/orcasound/orcaal-research/tree/master/notebooks)
+For more extensive research, jump to the [notebooks directory](https://github.com/orcasound/orcaal-research/tree/master/notebooks).
+
 ## Dataset 
 
-This github repository consists of the necessary steps taken for the backend i.e. preprocessing, building CNN models, and active learning. Along with this, this repository also contains different accuracy achieved by different models with the steps necessary steps taken to achieve that accuracy.
-I have used the [podcast round 2](https://github.com/orcasound/orcadata/wiki/Pod.Cast-data-archive#OrcasoundLab07052019_PodCastRound2) and [podcast round 3](https://github.com/orcasound/orcadata/wiki/Pod.Cast-data-archive#OrcasoundLab09272017_PodCastRound3) for training the model. The dataset was neatly labeled by the Orcasound organization that helped me a lot in preprocessing it.
+This github repository consists of the necessary steps taken for the backend of OrcaAL, i.e. preprocessing, building CNN models, and active learning. Along with this, this repository also quantifies the different accuracies achieved by each model experiment along with the steps necessary steps taken to achieve that accuracy.
+
+I have used the [podcast round 2](https://github.com/orcasound/orcadata/wiki/Pod.Cast-data-archive#OrcasoundLab07052019_PodCastRound2) and [podcast round 3](https://github.com/orcasound/orcadata/wiki/Pod.Cast-data-archive#OrcasoundLab09272017_PodCastRound3) for training the model. The dataset was neatly labeled by the Orcasound organization using the [Podcast tool](https://github.com/orcasound/orcalabel-podcast) (developed by Microsoft employees though hackathons) which helped me a lot in preprocessing it.
 
 ## Implementation
 
