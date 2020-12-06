@@ -46,7 +46,7 @@ The directory structure of our project looks like this:
 │   │   ├── notebooks/case_one/README.md
 │   │   └── notebooks/case_one/Training
 │   │       ├── notebooks/case_one/Training/README.md
-│   │       └── notebooks/case_one/Training/training_on_case_one_on_model_VGG_and_CNN.ipynb <- Jupyter notebook in colab performing training
+│   │       └── notebooks/case_one/Training/training_on_case_one_on_model_VGG_and_CNN.ipynb <- Jupyter notebook in colab performing training.
 │   ├── notebooks/case_three
 │   │   ├── notebooks/case_three/Preprocess
 │   │   │   ├── notebooks/case_three/Preprocess/preprocessing_PCEN_and_Wavlet_denoising.ipynb <- Jupyter notebook in colab performing preprocessing process.
