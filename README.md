@@ -1,7 +1,7 @@
 # AL-MLresearch
 This repository contains code, research work, and pre-processing steps involved in developing the Orcacall detection model for the "OrcaAL" Active learning tool during the 2020 Google Summer of Code. The deployment of the model within the tool is described in [the OrcaAL repo](https://orcasound.github.io/orcaal/).
 
-Most of the orca audio data present in the world are unlabeled. Even through labeling data is an expensive, difficult, and slow process, it is an essantial part of the advancing machine learning (ML) systems. What if a model could achieve accuracy by annotating a small portion of a large dataset? One way of doing this is [Active Learning](https://en.wikipedia.org/wiki/Active_learning_(machine_learning)) which can allow a human to spend 10-20% of the time annotating data and still get the good model performence.
+Most of the orca audio data present in the world are unlabeled. Even though labeling data is an expensive, difficult, and slow process, it is an essential part of the advancing machine learning (ML) systems. What if a model could achieve accuracy by annotating a small portion of a large dataset? One way of doing this is [Active Learning](https://en.wikipedia.org/wiki/Active_learning_(machine_learning)) which can allow a human to spend 10-20% of the time annotating data and still get the good model performance.
 
 Therefore, we going to build an active learning tool that would label the vast amount of unlabeled data coming in real-time streams from ocean observing systems.
 For more extensive research, jump to the [notebooks directory](https://github.com/orcasound/orcaal-research/tree/master/notebooks).
