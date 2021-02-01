@@ -10,7 +10,7 @@ For more extensive research, jump to the [notebooks directory](https://github.co
 
 This github repository consists of the necessary steps taken for the backend of OrcaAL, i.e. preprocessing, building CNN models, and active learning. Along with this, this repository also quantifies the different accuracies achieved by each model experiment along with the steps necessary steps taken to achieve that accuracy.
 
-I have used the [podcast round 2](https://github.com/orcasound/orcadata/wiki/Pod.Cast-data-archive#OrcasoundLab07052019_PodCastRound2) and [podcast round 3](https://github.com/orcasound/orcadata/wiki/Pod.Cast-data-archive#OrcasoundLab09272017_PodCastRound3) for training the model. The dataset was neatly labeled by the Orcasound organization using the [Podcast tool](https://github.com/orcasound/orcalabel-podcast) (developed by Microsoft employees though hackathons) which helped me a lot in preprocessing it.
+I have used the [podcast round 2](https://github.com/orcasound/orcadata/wiki/Pod.Cast-data-archive#OrcasoundLab07052019_PodCastRound2) and [podcast round 3](https://github.com/orcasound/orcadata/wiki/Pod.Cast-data-archive#OrcasoundLab09272017_PodCastRound3) for training the model. The dataset was neatly labeled by the Orcasound organization using the [Podcast tool](https://github.com/orcasound/orcalabel-podcast) (developed by Microsoft employees through hackathons) which helped me a lot in preprocessing it.
 
 ## Implementation
 
